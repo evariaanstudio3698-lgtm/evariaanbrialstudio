@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Evariaan Studio - Bridal Services</title>
+  <style>
+    /* Reset */
+    * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Segoe UI', sans-serif; }
+
+    body { background: #0b3d2e; color: #fff; }
+
+    header {
+      background: #0b3d2e;
+      color: #d4af37;
+      padding: 20px;
+      text-align: center;
+      border-bottom: 2px solid #d4af37;
+    }
+    header h1 { font-size: 2.2rem; }
+    nav a {
+      margin: 0 15px;
+      text-decoration: none;
+      color: #fff;
+      font-weight: 500;
+    }
+    nav a:hover { color: #d4af37; }
+
+    section { padding: 60px 20px; text-align: center; }
+    h2 { color: #d4af37; margin-bottom: 20px; font-size: 2rem; }
+    p { margin: 10px auto; max-width: 700px; line-height: 1.6; }
+
+    /* Services */
+    .services {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+    }
+    .service-card {
+      background: #145c43;
+      border: 1px solid #d4af37;
+      border-radius: 12px;
+      padding: 20px;
+      width: 250px;
+      transition: 0.3s;
+    }
+    .service-card:hover {
+      transform: translateY(-5px);
+      background: #0e4d37;
+    }
+
+    /* Contact */
+    .contact-info {
+      margin-top: 20px;
+    }
+    .btn {
+      display: inline-block;
+      padding: 10px 18px;
+      margin: 10px;
+      border-radius: 8px;
+      text-decoration: none;
+      color: #fff;
+      background: #d4af37;
+      font-weight: bold;
+    }
+    .btn:hover { background: #b8902f; }
+
+    /* Form */
+    form {
+      max-width: 500px;
+      margin: 20px auto;
+      background: #145c43;
+      padding: 20px;
+      border-radius: 12px;
+      border: 1px solid #d4af37;
+    }
+    form input, form textarea {
+      width: 100%;
+      padding: 10px;
+      margin: 8px 0;
+      border: none;
+      border-radius: 6px;
+      outline: none;
+    }
+    form button {
+      padding: 10px 20px;
+      border: none;
+      border-radius: 6px;
+      background: #d4af37;
+      color: #fff;
+      font-weight: bold;
+      cursor: pointer;
+    }
+    form button:hover { background: #b8902f; }
+
+    /* Footer */
+    footer {
+      text-align: center;
+      padding: 15px;
+      background: #0b3d2e;
+      border-top: 2px solid #d4af37;
+      margin-top: 40px;
+      font-size: 0.9rem;
+    }
+
+    /* Floating WhatsApp */
+    .whatsapp-float {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background: #25d366;
+      color: white;
+      border-radius: 50%;
+      padding: 15px;
+      font-size: 22px;
+      text-align: center;
+      text-decoration: none;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+    }
+    .whatsapp-float:hover { background: #1da851; }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Evariaan Studio</h1>
+    <p>Bridal Makeup • Mehendi • Saree Pre-pleating • Saree Draping • Hairstyling</p>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#testimonials">Testimonials</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <!-- Home -->
+  <section id="home">
+    <h2>Welcome to Evariaan Studio</h2>
+    <p>Your one-stop bridal studio for elegant bridal makeup, saree draping, mehendi artistry, and hairstyling. We make your special day unforgettable.</p>
+    <a href="https://wa.me/918056683698" class="btn">Book Now on WhatsApp</a>
+  </section>
+
+  <!-- About -->
+  <section id="about">
+    <h2>About Us</h2>
+    <p>At Evariaan Studio, we specialize in enhancing bridal beauty with traditional elegance and modern trends. Our expert team offers professional bridal makeup, mehendi, saree pre-pleating, draping, and hairstyling to make every bride shine with confidence.</p>
+  </section>
+
+  <!-- Services -->
+  <section id="services">
+    <h2>Our Services</h2>
+    <div class="services">
+      <div class="service-card"><h3>Bridal Makeup</h3><p>Flawless looks tailored for your big day.</p></div>
+      <div class="service-card"><h3>Mehendi</h3><p>Traditional and stylish henna designs for every occasion.</p></div>
+      <div class="service-card"><h3>Saree Pre-pleating</h3><p>Ready-to-wear sarees prepared neatly in advance.</p></div>
+      <div class="service-card"><h3>Saree Draping</h3><p>Perfect draping styles that enhance elegance.</p></div>
+      <div class="service-card"><h3>Hairstyling</h3><p>Trendy and traditional hairstyles for brides.</p></div>
+    </div>
+  </section>
+
+  <!-- Testimonials -->
+  <section id="testimonials">
+    <h2>What Our Brides Say</h2>
+    <p>⭐ “The best bridal studio in Thanjavur! I loved my look on my wedding day.” – Priya</p>
+    <p>⭐ “Their saree draping and makeup are just perfect. Highly recommended.” – Anitha</p>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <p>We’d love to be part of your special day. Reach us today!</p>
+
+    <div class="contact-info">
+      <a href="tel:+918056683698" class="btn">📞 Call 8056683698</a>
+      <a href="https://wa.me/918056683698" class="btn">💬 WhatsApp</a>
+      <a href="mailto:evariaanstudio3698@gmail.com" class="btn">✉️ Email</a>
+    </div>
+
+    <form action="https://formspree.io/f/yourformid" method="POST">
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="tel" name="phone" placeholder="Your Phone" required>
+      <input type="text" name="service" placeholder="Service Interested" required>
+      <textarea name="message" rows="4" placeholder="Your Message"></textarea>
+      <button type="submit">Send Inquiry</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>© 2025 Evariaan Studio • Bridal Makeup | Mehendi | Saree Draping | Hairstyling</p>
+  </footer>
+
+  <!-- Floating WhatsApp -->
+  <a href="https://wa.me/918056683698" class="whatsapp-float">💬</a>
+
+</body>
+</html>
